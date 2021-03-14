@@ -13,6 +13,10 @@
 		E75FE29825FDAE3A00BD6285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75FE29625FDAE3A00BD6285 /* Main.storyboard */; };
 		E75FE29A25FDAE3D00BD6285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75FE29925FDAE3D00BD6285 /* Assets.xcassets */; };
 		E75FE29D25FDAE3D00BD6285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75FE29B25FDAE3D00BD6285 /* LaunchScreen.storyboard */; };
+		E75FE2C625FDD78E00BD6285 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FE2C325FDD78E00BD6285 /* WalkthroughViewController.swift */; };
+		E75FE2C725FDD78E00BD6285 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FE2C425FDD78E00BD6285 /* WalkthroughPageViewController.swift */; };
+		E75FE2C825FDD78E00BD6285 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75FE2C525FDD78E00BD6285 /* WalkthroughContentViewController.swift */; };
+		E75FE2CB25FDD91C00BD6285 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75FE2CA25FDD91C00BD6285 /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E75FE29925FDAE3D00BD6285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75FE29C25FDAE3D00BD6285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E75FE29E25FDAE3D00BD6285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75FE2C325FDD78E00BD6285 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		E75FE2C425FDD78E00BD6285 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		E75FE2C525FDD78E00BD6285 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		E75FE2CA25FDD91C00BD6285 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				E75FE29925FDAE3D00BD6285 /* Assets.xcassets */,
 				E75FE29B25FDAE3D00BD6285 /* LaunchScreen.storyboard */,
 				E75FE29E25FDAE3D00BD6285 /* Info.plist */,
+				E75FE2C525FDD78E00BD6285 /* WalkthroughContentViewController.swift */,
+				E75FE2C425FDD78E00BD6285 /* WalkthroughPageViewController.swift */,
+				E75FE2C325FDD78E00BD6285 /* WalkthroughViewController.swift */,
+				E75FE2CA25FDD91C00BD6285 /* Onboarding.storyboard */,
 			);
 			path = TourPages;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 				E75FE29D25FDAE3D00BD6285 /* LaunchScreen.storyboard in Resources */,
 				E75FE29A25FDAE3D00BD6285 /* Assets.xcassets in Resources */,
 				E75FE29825FDAE3A00BD6285 /* Main.storyboard in Resources */,
+				E75FE2CB25FDD91C00BD6285 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E75FE29525FDAE3A00BD6285 /* ViewController.swift in Sources */,
+				E75FE2C625FDD78E00BD6285 /* WalkthroughViewController.swift in Sources */,
+				E75FE2C725FDD78E00BD6285 /* WalkthroughPageViewController.swift in Sources */,
+				E75FE2C825FDD78E00BD6285 /* WalkthroughContentViewController.swift in Sources */,
 				E75FE29125FDAE3A00BD6285 /* AppDelegate.swift in Sources */,
 				E75FE29325FDAE3A00BD6285 /* SceneDelegate.swift in Sources */,
 			);
